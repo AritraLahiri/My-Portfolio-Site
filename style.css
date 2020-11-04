@@ -360,9 +360,11 @@ input {
 	margin-bottom: 80px;
 }
 .about .container .myphoto img {
-	width: 400px;
-	height: 400px;
+	width: 450px;
+	height: 450px;
 	border-radius: 100%;
+	background-position: center;
+	background-size: cover;
 }
 .about .myphoto {
 	width: 60%;
@@ -475,9 +477,10 @@ footer .connect .media {
 		flex-direction: column;
 	}
 	.about .container .myphoto img {
-		width: 80%;
-		height: 70%;
-		margin: 0px 30px;
+		width: 100%;
+		height: 100%;
+		border-radius: 0%;
+		padding: 0;
 	}
 	.about .container .myphoto {
 		width: 100%;
@@ -624,6 +627,10 @@ footer .connect .media {
 @media (max-width: 900px) {
 	header {
 		flex-direction: column-reverse;
+	}
+	header .image img {
+		width: 90%;
+		height: 100%;
 	}
 }
 @media (max-width: 900px) {
