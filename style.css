@@ -34,16 +34,18 @@ a {
 	color: rgba(0, 0, 0, 0.71);
 	text-decoration: none;
 	background: #ffe9e9;
+	font-size: 1.2rem;
 }
 .navbar a:nth-child(1),
 .navlinks a:hover {
 	font-weight: bold;
 	color: #21cdf2;
+	font-size: 1.2rem;
 }
 .navbar .logo h1 {
 	background: #ffe9e9;
 	font-weight: 600;
-	font-size: 38px;
+	font-size: 34px;
 	line-height: 52px;
 	letter-spacing: 0.12em;
 	color: #21cdf2;
@@ -442,18 +444,14 @@ input {
 }
 /* About Me  */
 .about .heading h2 {
-	font-style: normal;
-	font-weight: normal;
 	font-size: 69px;
-	line-height: 84px;
 	letter-spacing: 0.01em;
 	color: rgba(240, 190, 13, 0.87);
 	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 	text-transform: capitalize;
-	margin-left: 60px;
 }
 .about .heading {
-	margin-bottom: 80px;
+	margin-bottom: 60px;
 }
 .about .container .myphoto img {
 	width: 474px;
@@ -557,7 +555,7 @@ footer .connect .media {
 		padding: 40px;
 	}
 	.about .heading h2 {
-		font-size: 3rem;
+		font-size: 2.4rem;
 		text-shadow: none;
 		font-weight: 600;
 		letter-spacing: 6px;
@@ -570,11 +568,14 @@ footer .connect .media {
 		height: 22px;
 	}
 	.about .desc h1 {
-		font-size: 2.9rem;
+		font-size: 1.6rem;
 		line-height: 50px;
+		text-align: left;
+		display: inline-block;
 	}
 	.about .desc p {
-		font-size: 18px;
+		font-size: 15px;
+		text-align: left;
 	}
 	.about .container {
 		flex-direction: column;
@@ -675,14 +676,14 @@ footer .connect .media {
 		padding: 0px;
 	}
 	section .heading h1 {
-		font-size: 3.0em;
-		padding: 0px;
-		text-align: center;
+		font-size: 2.4rem;
+		padding: 10px;
+		text-align: left;
 		margin: 40px auto;
 	}
 	section .container p,
 	section .rightContainer p {
-		font-size: 1.3em;
+		font-size: 1em;
 		padding: 10px;
 	}
 	.project .view {
@@ -692,9 +693,9 @@ footer .connect .media {
 	}
 
 	.project .left h1 {
-		font-size: 1.8rem;
+		font-size: 1.3rem;
 		padding: 0 16px;
-		line-height: 50px;
+		line-height: 29px;
 		margin-top: 2rem;
 	}
 	header {
@@ -739,17 +740,17 @@ footer .connect .media {
 }
 @media (max-width: 900px) {
 	header .left h1 {
-		font-size: 2rem;
+		font-size: 1.6rem;
 		line-height: 49px;
 		text-align: left;
 	}
 	header .left h1:nth-of-type(2) {
-		font-size: 1.3rem;
+		font-size: 1.1rem;
 		text-align: center;
 		margin: 0 auto;
 	}
 	header .left p {
-		font-size: 1.2rem;
+		font-size: 1rem;
 		text-align: left;
 	}
 	header .left {
