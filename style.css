@@ -454,6 +454,30 @@ input {
 .about .heading {
 	margin-bottom: 60px;
 }
+.about .container .download {
+	width: 100%;
+	margin: 3rem auto;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.about .container .download__resume {
+	font-size: 1.6rem;
+	color: #e2eef3;
+	background-color: #53d4f1;
+	padding: 0.6rem;
+	border-radius: 0px 0px 0px 36px;
+}
+.about .container .download__resume:hover {
+	background-color: #91d7fa;
+}
+
+.about .container .download img {
+	width: 63px;
+	height: 57px;
+}
+
 .about .container .myphoto img {
 	width: 474px;
 	height: 513px;
@@ -546,7 +570,7 @@ footer .connect .media {
 	background-color: #606060;
 }
 /* MEDIA QUERIES */
-@media (max-width: 900px) {
+@media (max-width: 768px) {
 	.bio {
 		width: 100%;
 		padding: 20px;
@@ -596,6 +620,7 @@ footer .connect .media {
 		width: 100%;
 		padding: 0px;
 	}
+
 	#contact .main .form form,
 	#contact .main .form form button {
 		text-align: center;
@@ -621,7 +646,7 @@ footer .connect .media {
 		width: 100%;
 	}
 }
-@media (max-width: 900px) {
+@media (max-width: 768px) {
 	#contact .heading {
 		margin-top: 0;
 		flex-direction: column;
@@ -662,7 +687,7 @@ footer .connect .media {
 		height: auto;
 	}
 }
-@media (max-width: 900px) {
+@media (max-width: 768px) {
 	section .container,
 	section .rightContainer {
 		flex-direction: column-reverse;
@@ -704,7 +729,7 @@ footer .connect .media {
 		margin-bottom: 20px;
 	}
 }
-@media (max-width: 900px) {
+@media (max-width: 768px) {
 	.head-cta {
 		flex-direction: column;
 	}
@@ -732,7 +757,7 @@ footer .connect .media {
 	}
 }
 
-@media (max-width: 900px) {
+@media (max-width: 768px) {
 	header {
 		flex-direction: column-reverse;
 	}
@@ -740,7 +765,7 @@ footer .connect .media {
 		width: 90%;
 	}
 }
-@media (max-width: 900px) {
+@media (max-width: 768px) {
 	header .left h1 {
 		font-size: 1.6rem;
 		line-height: 49px;
@@ -763,7 +788,7 @@ footer .connect .media {
 		width: 100%;
 	}
 }
-@media (max-width: 700px) {
+@media (max-width: 428px) {
 	header button {
 		width: 100%;
 		height: 100%;
@@ -773,7 +798,7 @@ footer .connect .media {
 		text-align: center;
 	}
 }
-@media (max-width: 740px) {
+@media (max-width: 428px) {
 	.navlinks {
 		flex-direction: column;
 		width: 100%;
@@ -782,5 +807,12 @@ footer .connect .media {
 		width: 100%;
 		text-align: center;
 		background-color: #f8dcdc;
+	}
+}
+
+@media (max-width: 428px) {
+	.about .container .download .download__resume {
+		font-size: 1rem;
+		padding: 1rem;
 	}
 }
