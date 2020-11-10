@@ -447,8 +447,9 @@ input {
 	font-size: 69px;
 	letter-spacing: 0.01em;
 	color: rgba(240, 190, 13, 0.87);
-	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	/* text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); */
 	text-transform: capitalize;
+	margin-left: 5rem;
 }
 .about .heading {
 	margin-bottom: 60px;
@@ -559,6 +560,7 @@ footer .connect .media {
 		text-shadow: none;
 		font-weight: 600;
 		letter-spacing: 6px;
+		margin-left: 0;
 	}
 	footer .copyright h1 {
 		font-size: 15px;
